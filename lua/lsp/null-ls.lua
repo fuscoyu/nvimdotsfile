@@ -10,7 +10,7 @@ local code_actions = null_ls.builtins.code_actions
 
 null_ls.setup({
 	debug = false,
-	sources = {
+	sources =                                                                                                           {
 		-- Formatting ---------------------
 		--  brew install shfmt
 		formatting.shfmt,
